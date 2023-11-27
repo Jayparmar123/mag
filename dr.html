@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Employee Details</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Salary</th>
+            <th>Designation</th>
+            <th>Joining Date</th>
+            <th>Experience (in years)</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>50000</td>
+            <td>Manager</td>
+            <td>2022-01-15</td>
+            <td>5</td>
+        </tr>
+        <!-- Add more rows as needed -->
+    </table>
+    
+    <script>
+        // JavaScript function to generate a random color
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        // Apply random background colors to table cells
+        var cells = document.querySelectorAll("td, th");
+        cells.forEach(function(cell) {
+            cell.style.backgroundColor = getRandomColor();
+            cell.style.color = 'white'; // Set text color to white for visibility
+        });
+    </script>
+</body>
+</html>

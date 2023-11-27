@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css">
+/*	margin top*/
+.mt5{margin-top: 5px;}
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.mt30{margin-top: 30px;}
+.mt35{margin-top: 35px;}
+.mt40{margin-top: 40px;}
+.mt50{margin-top: 50px;}
+.mt60{margin-top: 60px;}
+.mt70{margin-top: 70px;}
+.mt80{margin-top: 80px;}
+.mt90{margin-top: 90px;}
+.mt100{margin-top: 100px;}
+.mt130{margin-top: 135px;}
+.mt150{margin-top: 190px;}
+.mt220{margin-top: 230px;}
+.mt200{margin-top: 240px;}
+.mt250{margin-top: 270px;}
+.mt300{margin-top: 300px;}
+.mt450{margin-top: 450px;}
+.mt500{margin-top: 490px;}
+.mg0{margin: 0px;}
+
+/*margin left*/
+.ml5{margin-left: 5px;}
+.ml10{margin-left: 10px;}
+.ml20{margin-left: 20px;}
+.ml30{margin-left: 30px;}
+.ml40{margin-left: 40px;}
+.ml50{margin-left: 50px;}
+.ml60{margin-left: 60px;}
+.ml70{margin-left: 70px;}
+.ml80{margin-left: 80px;}
+.ml90{margin-left: 90px;}
+.ml100{margin-left: 100px;}
+.ml120{margin-left: 120px;}
+.ml150{margin-left: 150px;}
+.ml200{margin-left: 200px;}
+.ml250{margin-left: 250px;}
+.ml300{margin-left: 300px;}
+.ml400{margin-left: 400px;}
+.ml500{margin-left: 500px;}
+.ml600{margin-left: 600px;}
+.ml685{margin-left: 685px;}
+.ml700{margin-left: 700px;}
+.ml750{margin-left: 750px;}
+.ml800{margin-left: 800px;}
+
+/*color*/
+.clr{color: red}
+.cls{color: silver;}
+.clg{color: green;}
+.clw{color: white;}
+.clgr{color: lightgray;}
+.clbb{color: rgb(247, 86, 86)}
+.clb{color: black;}
+
+
+/*background-color*/
+.bgr{background: red;}
+.bgs{background: silver;}
+.bgg{background: green;}
+.bgb{background: rgb(48, 62, 75);}
+.bgh{background: #333333;}
+.bgd{background:rgb(247, 86, 86);}
+.bg{background: #00000070}
+.bg2{background: #000000d1}
+
+/*height*/
+.h30{height: 30px;}
+.h50{height: 50px;}
+.h40{height: 40px;}
+.h50{height: 50px;}
+.h70{height: 70px;}
+.h100{height: 100px;}
+.h130{height: 130px;}
+.h140{height: 140px;}
+.h150{height: 150px;}
+.h200{height: 200px;}
+.h250{height: 250px;}
+.h300{height: 300px;}
+.h345{height: 345px;}
+.h400{height: 400px;}
+.h420{height: 420px;}
+.h450{height: 450px;}
+.h500{height: 500px;}
+.h550{height: 550px;}
+.h600{height: 600px;}
+.h700{height: 700px;}
+.h800{height: 800px;}
+.h1000{height: 1000px;}
+.h1500{height: 1500px;}
+.h1800{height: 1800px;}
+
+/*width*/
+.w60px{width: 60px;}
+.w80px{width: 80px;}
+.w100px{width: 100px;}
+.w120px{width: 120px;}
+.w180px{width: 179px;}
+.w100{width: 100%;}
+.w90{width: 90%;}
+.w95{width: 95%;}
+.w50{width: 50%;}
+.w70{width: 70%;}
+.w65{width: 65%;}
+.w75{width: 75%;}
+.w80{width: 80%;}
+.w85{width: 85%;}
+.w45{width: 45%;}
+.w46{width: 46%;}
+.w47{width: 48%;}
+.w25{width: 25%;}
+.w24{width: 24%;}
+.w30{width: 30%;}
+.w23{width: 23%;}
+.w20{width: 20%;}
+.w10{width: 10%;}
+.w9{width: 9%;}
+.w15{width: 15%;}
+.w16{width: 16.66%;}
+.w60{width: 60%;}
+.w67{width: 67%;}
+.w40{width: 40%;}
+.w19{width: 19%;}
+.w48{width: 48%;}
+.w32{width: 32%;}
+.w33{width: 33%;}
+.w333{width: 33.3%;}
+.w335{width: 33.5%;}
+
+
+/*hover*/
+.hv:hover{color: red;transition: 1s;}
+
+.hv2:hover{color: rgb(179, 179, 179); transition: 1s;}
+
+.hv3:hover{background-color: #333333;transition: 1s;color: white;}
+
+.hv4{background-size: 110% 110%;transition: 2s;}
+.hv4:hover{background-size: 100% 100%;transition: 2s;}
+
+.hv5:hover{background-color: red;color: white;transition: 1s;}
+
+.hv6{background-size: 100% 100%;transition: 2s;}
+.hv6:hover{background-size: 110% 110%;transition: 2s;}
+
+/*font style*/
+*{font-family: "open sans",sans-serif;} 
+
+.fs3{font-size: 30px;}
+.fs2{font-size: 20px;}
+.fs15{font-size: 17px;}
+.fs25{font-size: 25px;}
+.fs{font-size: 10px;}
+.fs5{font-size: 50px;}
+.fs4{font-size: 40px;}
+
+.inl{display: inline;}
+
+.fl{float: left;}
+
+/*button*/
+.btn{background: #33b1de;
+		border: 0px;
+		color: white;}
+
+.btn2{background: #e36493;
+		border: 0px;
+		color: white;}
+
+.btn3{background: #69b74f;
+		border: 0px;
+		color: white;}
+
+.btn4{background: white;
+		border: 0px;
+		border-radius: 30px;
+		color: red;}
+
+.btn5{background: white;
+		border: 0px;
+		color: grey;}
+
+.btn6{background: none;
+		border: 0px;
+		border-radius: 100%;
+		color: white;
+		height: 50px;
+		width: 30px;
+		font-size: 20px}
+
+.disp{display: inline;}
+.bdr{border: 0px;}
+
+.black{height: 100%;
+	width: 100%;
+	background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
+}
+*{text-decoration: none;}
+
+a{color: black;}
+
+</style>
+
+<link rel="icon" type="text/css" href="images/favicon.png">
+
+</head>
+<body style="margin: 0px;">
+
+	<div class="w100 h30 bgb clw">
+		<i class="fa fa-clock-o ml150 mt5" aria-hidden="true"></i>
+		<span class="mt10"> 2023-09-12</span>
+		<i class="fa fa-cloud ml50 mt5" aria-hidden="true"></i>
+		<span>Bapunagar,Ahmedabad</span>
+
+		<a href="index.html"><i class="fa fa-facebook ml750 hv clw" aria-hidden="true"></i></a>
+		<a href="index.html"><i class="fa fa-twitter ml10 hv clw" aria-hidden="true"></i></a>
+		<a href="index.html"><i class="fa fa-instagram ml10 hv clw" aria-hidden="true"></i></a>
+	</div>
+
+	<div class="w100 h70">
+		<div class="h50 fl w30">
+		<a href="index.html"><img src="images/logo1.png" class="mt10 ml150"></a>
+		</div>
+		<div class="h50 fl w70">
+		<a href="index.html"><span class="inl ml100 mt30  fl hv clbb">HOME</span></a>
+		<a href="blog.html"><span class="inl ml20 mt30 fl hv clb">BLOG</span></a>
+		<a href="shoplist.html"><span class="inl ml20 mt30 fl hv clb">SHOP LIST</span></a>
+		<a href="account.html"><span class="inl ml20 mt30 fl hv clb">ACCOUNT</span></a>
+		<a href="cart.html"><span class="inl ml20 mt30 fl hv clb">CART</span></a>
+		<a href="checkout.html"><span class="inl ml20 mt30 fl hv clb">CHECKOUT</span></a>
+		<a href="detail.html"><span class="inl ml20 mt30 fl hv clb">DETAIL</span></a>
+		<a href="aboutus.html"><span class="inl ml20 mt30 fl hv clb">ABOUT US</span></a>
+		<a href="contactus.html"><span class="inl ml20 mt30 fl hv clb">CONTACT US</span></a>
+		<i class="fa fa-search ml20 mt30 fl hv" aria-hidden="true"></i>
+		</div>
+	</div>
+
+	<div class="h600 w100">
+		<div class="h600 w60 fl" style="background-image:url(images/slider/slider1.jpg);
+										background-position: center;
+										background-size: cover;">
+										<div class="black fl">
+										<center>
+										<div class="mt500">
+											<div>
+										<a href="index.html"><button class="btn hv3 h30 w60px">#New</button></a>
+								<a href="index.html"><button class="btn2 hv3 ml10 h30 w80px">#Health</button></a>
+										</div>
+										<div class="mt10">
+										<a href="detail.html"><h2 class="clw fs25 hv2 mg0">Discover your true health</h2></a>
+										</div>
+										<div class="mt10">
+				<a href="index.html"><i class="fa fa-user clw hv2" aria-hidden="true"> John doe</i></a>
+				<i class="fa fa-clock-o clw ml10" aria-hidden="true"> 12 May</i>
+			<a href="index.html"><i class="fa fa-commenting-o clw hv2 ml10" aria-hidden="true"> 5 Comments</i></a>
+										</div>
+										</div>
+										</center>
+		</div></div>
+		<div class="h600 w40 fl">
+			<div class="h300 w100 fl" style="background-image:url(images/slider/slider2.jpg);
+												background-position: center;
+												background-size: cover;">
+													<div class="black fl">
+													<center>
+										<div class="mt150">
+											<div>
+								<a href="index.html"><button class="btn hv3 h30 w120px">#Entertainment</button></a>
+								<a href="index.html"><button class="btn3 hv3 ml10 h30 w80px">#Health</button></a>
+										</div>
+										<div class="mt10">
+										<a href="detail.html"><h2 class="clw fs25 hv2 mg0">Top 10 Dancers you should</h2></a>
+										</div>
+										<div class="mt10">
+										<a href="index.html"><i class="fa fa-user clw hv2" aria-hidden="true"></i>
+											<p class="disp clw hv2">Micheal Jackson</p></a>
+									<i class="fa fa-clock-o clw ml10" aria-hidden="true"></i>
+											<p class="disp clw">1 july</p>
+							<a href="index.html"><i class="fa fa-commenting-o clw ml10 hv2" aria-hidden="true"></i>
+											<p class="disp clw hv2">5 Comments</p></a>
+										</div>
+										</div>
+										</center></div>
+												</div>
+			<div class="h300 w100 fl" style="background-image:url(images/slider/slider3.jpg);
+												background-position: center;
+												background-size: cover;">
+													<div class="black fl">
+													<center>
+										<div class="mt150">
+											<div>
+								<a href="index.html"><button class="btn hv3 h30 w80px">#Religion</button></a>
+								<a href="index.html"><button class="btn3 hv3 ml10 h30 w60px">#New</button></a>
+										</div>
+										<div class="mt10">
+										<a href="detail.html"><h2 class="clw fs25 hv2 mg0">What did  Buddha teach?</h2></a>
+										</div>
+										<div class="mt10">
+							<a href="index.html"><i class="fa fa-user clw hv2" aria-hidden="true"></i>
+							<p class="disp clw hv2">Tom Richardson</p></a>
+							<a href="index.html"><i class="fa fa-clock-o clw ml10" aria-hidden="true"></i>
+							<p class="disp clw">12 june</p></a>
+							<a href="index.html"><i class="fa fa-commenting-o clw hv2 ml10" aria-hidden="true"></i>
+							<p class="disp clw hv2">5 Comments</p></a>
+										</div>
+										</div>
+										</center></div>
+												</div>
+		</div>
+	</div>
+
+	<div class="h100 w85 ml100">
+		<div class="h50 w10 fl">
+			<button class="h50 w180px bgd bdr clw fs2 mt50">Breaking News</button>
+		</div>
+		<div class="h50 w90 fl">
+			<marquee class="mt70 ml100">
+			<a href="index.html"><li class="disp ml10 clb"><i class="fa fa-circle fs clb" aria-hidden="true"></i> "Speaks perfect English”: Trump’s offensive praise of a Latino Border Patrol agent</li></a>
+			<a href="index.html"><li class="disp ml10 clb"><i class="fa fa-circle fs clb" aria-hidden="true"></i> Watch J. Lo live her best life, Nicki Minaj go regal, and Ariana Grande go religious.</li></a>
+			<a href="index.html"><li class="disp ml10 clb"><i class="fa fa-circle fs clb" aria-hidden="true"></i> Tesla fans have found a new person to blame for Elon Musk’s troubles: his girlfriend</li></a>
+			<a href="index.html"><li class="disp ml10 clb"><i class="fa fa-circle fs clb" aria-hidden="true"></i> The Pentagon won’t check if US bombs killed kids in Yemen. CNN did it for them.</li></a>
+			</marquee>
+		</div>
+	</div>
+
+	<div class="h500 w85 ml100">
+		<h2>Top Trending</h2>
+		<hr>
+		<div class="h400 w45 fl hv4 mt20" style="background-image:url(images/trending3.jpg);
+										
+										background-position: center;">
+
+										<center>
+			<div class="mt200 w100 bg">
+				<div>
+				<a href="detail.html"><p class="fs2 clw hv2">Creativity comes within itself for everyone</p></a></div>
+				<div>
+				<a href="index.html"><button class="btn hv3 h30 w60px">#New</button></a>
+				<a href="index.html"><button class="btn2 hv3 h30 w80px ml10">#Education</button></a>
+				<a href="index.html"><button class="btn3 hv3 h30 w80px ml10">#Children</button></a></div>
+				<div>
+				<p class="clw">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p></div>
+				<div>
+				<a href="index.html"><i class="fa fa-user clw hv2" aria-hidden="true"></i>
+		<p class="disp clw hv2">John Doe</p></a>
+		<i class="fa fa-clock-o clw hv2 ml10" aria-hidden="true"></i>
+		<p class="disp clw hv2">12 may</p>
+		<a href="index.html"><i class="fa fa-commenting-o clw ml10" aria-hidden="true"></i>
+		<p class="disp clw hv2">5 Comments</p></a></div>
+			</div>
+		</center>
+		</div>
+		<div class="h400 w25 fl ml30 mt20" style="background-image:url(images/mostviewed3.jpg);
+										background-size: cover;
+										background-position: center;">
+										<div class="black fl">
+										<center>
+											<div class="mt250">
+												<div class="w90">
+												<a href="detail.html"><p class="clw fs2 hv">Traffic,A big problem</p></a>
+												<hr></div>
+												<div>
+												<a href="index.html"><i class="fa fa-user clw hv" aria-hidden="true"></i>
+											<p class="disp clw hv">John Doe</p></a>
+											<i class="fa fa-clock-o clw  ml10" aria-hidden="true"></i>
+											<p class="disp clw">12 may</p></div>
+											<div>
+											<a href="index.html"><button class="btn hv3 h30 w60px mt10">#New</button></a>
+											<a href="index.html"><button class="btn2 hv3 h30 w80px ml10">#Politics</button></a></div>
+											</div>
+										</center></div>
+		</div>
+		<div class="h400 w25 fl ml30 mt20" style="background-image:url(images/mostviewed1.jpg);
+										background-size: cover;
+										background-position: center;">
+										<div class="black fl">
+										<center>
+											<div class="mt250">
+												<div class="w90">
+													<a href="detail.html"><p class="clw fs2 hv">Best Gadgets in town</p></a>
+													<hr>
+												</div>
+												<div>
+													<a href="index.html"><i class="fa fa-user clw hv" aria-hidden="true"></i>
+											<p class="disp clw hv">Mr Gadget</p></a>
+											<i class="fa fa-clock-o clw  ml10" aria-hidden="true"></i>
+											<p class="disp clw">12 April</p>
+												</div>
+												<div>
+													<a href="index.html"><button class="btn hv3 h30 w60px mt10">#New</button></a> 
+													<a href="index.html"><button class="btn2 hv3 h30 w80px ml10">#Health</button></a> 
+												</div>
+											</div>
+										</center></div>
+		</div>
+	</div>
+
+				<div class="h100 w80 ml150 mt30" style="background-image:url(images/pd1.jpg);
+												background-size: cover;
+												background-position: center;"></div>
+
+				<div class="h500 w85 ml100 mt50">
+					<h2>Latest Posts</h2>
+					<hr>
+			<div class="w47 h400 mt30 fl hv4" style="background-image:url(images/trending1.jpg);
+													background-position: center;">
+														<center>
+															<div class="mt220 w100 bg">
+																<div>
+								<a href="detail.html"><p class="clw fs2 hv2">New Generation of people loving food</p></a>
+																</div>
+																<div>
+									<a href="index.html"><button class="btn hv3 h30 w60px mt10">#New</button></a>
+									<a href="index.html"><button class="btn2 hv3 h30 w80px ml10">#Sports</button></a>
+									<a href="index.html"><button class="btn3 hv3 h30 w100px ml10">#Trending</button></a>
+																</div>
+																<div>
+		<p class="clw hv2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+																</div>
+																<div>
+									<a href="index.html"><i class="fa fa-user clw hv2" aria-hidden="true"></i>
+									<p class="disp clw hv2">John Doe</p></a>
+									<i class="fa fa-clock-o clw hv2 ml10" aria-hidden="true"></i>
+									<p class="disp clw hv2">12 may</p>
+									<a href="index.html"><i class="fa fa-commenting-o clw ml10" aria-hidden="true"></i>
+									<p class="disp clw hv2">5 Comments</p></a>
+																</div>
+
+															</div>
+														</center>
+													</div>
+		<div class="w47 h400 fl mt30 ml40 hv4" style="background-image:url(images/trending2.jpg);
+													background-position: center;">
+														<center>
+															<div class="mt220 bg w100">
+																<div>
+				<a href="detail.html"><p class="clw fs2 hv2">2018's most fascinating governor's election,explained</p></a>
+																</div>
+																<div>
+												<a href="index.html"><button class="btn hv3 h30 w60px mt10">#New</button></a>
+												<a href="index.html"><button class="btn2 hv3 h30 w80px ml10">#Security</button></a>
+												<a href="index.html"><button class="btn3 hv3 h30 w100px ml10">#Politics</button></a>
+																</div>
+																<div>
+				<p class="clw hv2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+																</div>
+																<div>
+											<a href="index.html"><i class="fa fa-user clw hv2" aria-hidden="true"></i>
+											<p class="disp clw hv2">John Doe</p></a>
+											<i class="fa fa-clock-o clw hv2 ml10" aria-hidden="true"></i>
+											<p class="disp clw hv2">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o clw ml10" aria-hidden="true"></i>
+											<p class="disp clw hv2">5 Comments</p></a>	
+																</div>
+															</div>
+														</center>
+													</div>
+				</div>
+
+				<div class="h400 w85 ml100 mt30">
+					<div class="h400 w47 fl">
+						<div class="h130 w100 fl">
+							<div class="h130 w30 fl">
+								<img src="images/small4.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+									<a href="detail.html"><p class="mg0 fs2 hv clb">Watch: the 3 best performance of the 2018 VMAs</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv clb" aria-hidden="true"></i>
+											<p class="disp hv clb">John Doe</p></a>
+											<i class="fa fa-clock-o ml10" aria-hidden="true"></i>
+											<p class="disp">12 may</p>
+										<a href="index.html"><i class="fa fa-commenting-o ml10 hv clb" aria-hidden="true"></i>
+											<p class="disp hv clb">5 Comments</p></a>	
+								</div>
+								<div>
+									<a href="index.html"><button class="btn hv3 h30 w60px mt10">#New</button></a>
+										<a href="index.html"><button class="btn3 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+							<hr>
+							<div class="h130 w100 fl">
+							<div class="h130 w30 fl">
+								<img src="images/small5.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+									<a href="detail.html"><p class="mg0 fs2 hv clb">Music bringing people together everywhere</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv mt10 clb" aria-hidden="true"></i>
+											<p class="disp hv clb">John Doe</p></a>
+											<i class="fa fa-clock-o ml10" aria-hidden="true"></i>
+											<p class="disp">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10 hv clb" aria-hidden="true"></i>
+											<p class="disp hv clb">5 Comments</p></a>	
+								</div>
+								<div>
+									<a href="index.html"><button class="btn hv3 h30 w60px mt10">#New</button></a>
+										<a href="index.html"><button class="btn2 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="h130 w100 fl">
+							<div class="h130 w30 fl">
+								<img src="images/small6.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+									<a href="detail.html"><p class="mg0 fs2 hv clb">"Speaks perfect English":Trump's offensive praise of a Latino Border Patrol agent</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv mt10 clb" aria-hidden="true"></i>
+											<p class="disp hv clb">John Doe</p></a>
+											<i class="fa fa-clock-o hv ml10" aria-hidden="true"></i>
+											<p class="disp hv">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10 clb" aria-hidden="true"></i>
+											<p class="disp hv clb">5 Comments</p></a>	
+								</div>
+								<div>
+									<a href="index.html"><button class="btn hv3 h30 w60px">#New</button></a>
+										<a href="index.html"><button class="btn3 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="h400 w47 fl ml40">
+						<div class="h130 w100 fl">
+							<div class="h130 w30 fl">
+								<img src="images/small1.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+						<a href="detail.html"><p class="mg0 fs2 hv clb">7 reasons Hollywood doesn't make romatic comedies anymore</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv mt10 clb" aria-hidden="true"></i>
+											<p class="disp hv clb">John Doe</p></a>
+											<i class="fa fa-clock-o hv2 ml10" aria-hidden="true"></i>
+											<p class="disp hv">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10 clb" aria-hidden="true"></i>
+											<p class="disp hv clb">5 Comments</p></a>	
+								</div>
+								<div>
+									<a href="index.html"><button class="btn2  hv3 h30 w60px mt10">#New</button></a>
+										<a href="index.html"><button class="btn3 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="h130 w100 fl">
+							<div class="h130 w30 fl">
+								<img src="images/small2.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+						<a href="detail.html"><p class="clb mg0 fs2 hv">Must have gadgets in this century</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv mt10 clb" aria-hidden="true"></i>
+											<p class="disp hv clb">John Doe</p></a>
+											<i class="fa fa-clock-o hv2 ml10" aria-hidden="true"></i>
+											<p class="disp hv">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10 clb" aria-hidden="true"></i>
+											<p class="disp hv clb">5 Comments</p></a>	
+								</div>
+								<div>
+									<a href="index.html"><button class="btn  hv3 h30 w60px mt10">#New</button>
+										<a href="index.html"><button class="btn2 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="h130 w100 fl">
+							<div class="h130 w30 fl">
+								<img src="images/small3.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+						<a href="detail.html"><p class="mg0 fs2 hv clb">Why conservatives love to hate alexandria Ocasio-Cortez</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv mt10 clb" aria-hidden="true"></i>
+											<p class="disp hv clb">John Doe</p></a>
+											<i class="fa fa-clock-o hv ml10" aria-hidden="true"></i>
+											<p class="disp hv">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10 clb" aria-hidden="true"></i>
+											<p class="disp hv clb">5 Comments</p></a>	
+								</div>
+								<div>
+									<a href="index.html"><button class="btn hv3 h30 w60px mt10">#New</button></a>
+										<a href="index.html"><button class="btn3 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		<div class="h400 w100 mt50" style="background-image: url(images/pd2.jpg);
+										background-size: cover;
+										background-position: center;
+										background-attachment: fixed;">
+										<div class="bg fl h400">
+												<div class="h300 w60 fl mt50 ml250">
+													<center>
+													<div>
+											<h2 class="fs4 clw">Build your dream magazine now</h2>
+													</div>
+													<div>
+			<p class="clw fs2">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+													</div>
+													<div>
+														<a href="index.html"><button class="btn4 hv5 h50 w120px fs2">Buy Now</button></a>
+													</div>
+													</center>
+												</div>
+												</div>
+										</div>
+
+			<div class="h500 w85 ml100 mt50">
+				<h2>Most Viewed</h2>
+				<hr>
+				<div style="background-image: url(images/mostviewed1.jpg);
+							background-size: cover;
+							background-position: center;" class="h400 w23 fl mt20">
+							<div class="black">
+							<center>
+								<div class="h100 w90 fl mt200 ml10">
+									<div>
+										<a href="detail.html"><h3 class="clw hv">Technology and Music</h3></a>
+									</div>
+									<hr>
+									<div>
+									<a href="index.html"><i class="fa fa-user hv mt10 clw" aria-hidden="true"></i>
+											<p class="disp hv clw">John Doe</p></a>
+										<i class="fa fa-clock-o hv ml10 clw" aria-hidden="true"></i>
+											<p class="disp hv clw">12 may</p>
+									</div>
+									<div>
+										<a href="index.html"><button class="btn  hv3 h30 w60px mt10">#New</button></a>
+										<a href="index.html"><button class="btn2 hv3 ml10 h30 w80px">#Health</button></a>
+									</div>
+								</div>
+							</center>
+							</div>
+								
+							</div>
+				<div style="background-image: url(images/mostviewed2.jpg);
+							background-size: cover;
+							background-position: center;" class="h400 w23 fl ml30 mt20">
+							<div class="black">
+							<center>
+								<div class="h100 w90 fl mt200 ml10">
+									<div>
+										<a href="detail.html"><h3 class="clw hv">Raising a child</h3></a>
+									</div>
+									<hr>
+									<div>
+										<a href="index.html"><i class="fa fa-user hv clw mt10" aria-hidden="true"></i>
+											<p class="disp clw hv">John Doe</p></a>
+										<i class="fa fa-clock-o clw ml10" aria-hidden="true"></i>
+											<p class="disp clw">12 may</p>
+									</div>
+									<div>
+										<a href="index.html"><button class="btn  hv3 h30 w60px mt10">#New</button></a>
+										<a href="index.html"><button class="btn3 hv3 ml10 h30 w80px">#Health</button></a>
+									</div>
+								</div>
+							</center>
+							</div>
+								
+							</div>
+				<div style="background-image: url(images/mostviewed3.jpg);
+							background-size: cover;
+							background-position: center;" class="h400 w23 fl ml30 mt20">
+							<div class="black">
+							<center>
+								<div class="h100 w90 fl mt200 ml10">
+									<div>
+										<a href="detail.html"><h3 class="clw hv">Travelling</h3></a>
+									</div>
+									<hr>
+									<div>
+										<a href="index.html"><i class="fa fa-user hv mt10 clw" aria-hidden="true"></i>
+											<p class="disp hv clw">John Doe</p></a>
+											<i class="fa fa-clock-o clw ml10" aria-hidden="true"></i>
+											<p class="disp clw">12 may</p>
+									</div>
+									<div>
+										<a href="index.html"><button class="btn2  hv3 h30 w60px mt10">#New</button></a>
+										<a href="index.html"><button class="btn3 hv3 ml10 h30 w80px">#Health</button></a>
+									</div>
+								</div>
+							</center>
+								</div>
+							</div>
+				<div style="background-image: url(images/mostviewed4.jpg);
+							background-size: cover;
+							background-position: center;" class="h400 w23 fl ml30 mt20">
+							<div class="black">
+							<center>
+								<div class="h100 w90 fl mt200 ml10">
+									<div>
+										<a href="detail.html"><h3 class="clw hv">Chestor Bennington</h3></a>
+									</div>
+									<hr>
+									<div>
+									<a href="index.html"><i class="fa fa-user hv clw mt10" aria-hidden="true"></i>
+											<p class="disp hv clw">John Doe</p></a>
+											<i class="fa fa-clock-o clw ml10" aria-hidden="true"></i>
+											<p class="disp clw">12 may</p>
+									</div>
+									<div>
+										<a href="index.html"><button class="btn  hv3 h30 w60px mt10">#New</button></a>
+										<a href="index.html"><button class="btn3 hv3 ml10 h30 w80px">#Health</button></a>
+									</div>
+								</div>
+							</center> 
+								</div>
+							</div>
+			</div>
+
+			<div class="h1800 w85 ml100 mt30">
+				<h2 class="disp">Categories</h2>
+				<button class="h40 w120px btn5 ml685 hv3">
+					<i class="fa fa-trophy" aria-hidden="true"></i>
+					<span class="disp">Entertainment</span>
+				</button>
+				<button class="h40 w80px btn5 hv3">
+					<i class="fa fa-globe" aria-hidden="true"></i>
+					<p class="disp">Politics</p>
+				</button>
+				<button class="h40 w100px btn5 hv3">
+					<i class="fa fa-suitcase" aria-hidden="true"></i>
+					<p class="disp">Business</p>
+				</button>
+				<button class="h40 w80px btn5 hv3">
+					<i class="fa fa-gamepad" aria-hidden="true"></i>
+					<p class="disp">Sports</p>
+				</button>
+
+				<hr>
+				<div class="h420 w100 fl">
+				<div class="h420 w50 fl">
+			<div class="w95 h400 mt20 fl hv4" style="background-image:url(images/trending1.jpg);
+													background-position: center;">
+														<center>
+															<div class="mt220 w100 bg">
+																<div>
+								<a href="detail.html"><p class="clw fs2 hv2">New Generation of people loving food</p></a>
+																</div>
+																<div>
+									<a href="index.html"><button class="btn hv3 h30 w60px mt10">#New</button></a>
+									<a href="index.html"><button class="btn2 hv3 h30 w80px ml10">#Sports</button></a>
+									<a href="index.html"><button class="btn3 hv3 h30 w100px ml10">#Trending</button></a>
+																</div>
+																<div>
+		<p class="clw hv2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+																</div>
+																<div>
+									<a href="index.html"><i class="fa fa-user clw hv2" aria-hidden="true"></i>
+									<p class="disp clw hv2">John Doe</p></a>
+									<i class="fa fa-clock-o clw hv2 ml10" aria-hidden="true"></i>
+									<p class="disp clw hv2">12 may</p>
+									<a href="index.html"><i class="fa fa-commenting-o clw ml10" aria-hidden="true"></i>
+									<p class="disp clw hv2">5 Comments</p></a>	
+																</div>
+
+															</div>
+														</center>
+													</div>
+												</div>
+
+							<div class="h420 w47 fl ml10">
+						<div class="h130 w100 fl mt20">
+							<div class="h130 w30 fl">
+								<img src="images/small1.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+						<a href="detail.html"><p class="mg0 fs2 hv">7 reasons Hollywood doesn't make romatic comedies anymore</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv mt10" aria-hidden="true"></i>
+											<p class="disp hv">John Doe</p></a>
+											<i class="fa fa-clock-o hv2 ml10" aria-hidden="true"></i>
+											<p class="disp hv">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10" aria-hidden="true"></i>
+											<p class="disp hv">5 Comments</p></a>	
+								</div>
+								<div>
+									<a href="index.html"><button class="btn2  hv3 h30 w60px mt10">#New</button></a>
+									<a href="index.html"><button class="btn3 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="h130 w100 fl">
+							<div class="h130 w30 fl">
+								<img src="images/small2.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+						<a href="detail.html"><p class="mg0 fs2 hv">Must have gadgets in this century</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv mt10" aria-hidden="true"></i>
+											<p class="disp hv">John Doe</p></a>
+											<i class="fa fa-clock-o hv2 ml10" aria-hidden="true"></i>
+											<p class="disp hv">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10" aria-hidden="true"></i>
+											<p class="disp hv">5 Comments</p></a>	
+								</div>
+								<div>
+									<a href="index.html"><button class="btn  hv3 h30 w60px mt10">#New</button></a>
+										<a href="index.html"><button class="btn2 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="h130 w100 fl">
+							<div class="h130 w30 fl">
+								<img src="images/small3.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+						<a href="detail.html"><p class="mg0 fs2 hv">Why conservatives love to hate alexandria Ocasio-Cortez</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv mt10" aria-hidden="true"></i>
+											<p class="disp hv">John Doe</p></a>
+											<i class="fa fa-clock-o hv ml10" aria-hidden="true"></i>
+											<p class="disp hv">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10" aria-hidden="true"></i>
+											<p class="disp hv">5 Comments</p></a>	
+								</div>
+								<div>
+									<a href="index.html"><button class="btn hv3 h30 w60px mt10">#New</button></a>
+										<a href="index.html"><button class="btn3 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="h400 w100 fl mt30">
+					<div class="h400 w46 fl">
+						<div class="h130 w100 fl">
+							<div class="h130 w30 fl">
+								<img src="images/small4.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+									<a href="detail.html"><p class="mg0 fs2 hv ml10">Watch: the 3 best performance of the 2018 VMAs</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv ml10" aria-hidden="true"></i>
+											<p class="disp hv">John Doe</p></a>
+											<i class="fa fa-clock-o ml10" aria-hidden="true"></i>
+											<p class="disp">12 may</p>
+										<a href="index.html"><i class="fa fa-commenting-o ml10 hv" aria-hidden="true"></i>
+											<p class="disp hv">5 Comments</p></a>	
+								</div>
+								<div>
+									<a href="index.html"><button class="btn hv3 h30 w60px mt10 ml10">#New</button></a>
+										<a href="index.html"><button class="btn3 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+							<hr>
+							<div class="h130 w100 fl">
+							<div class="h130 w30 fl">
+								<img src="images/small5.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+									<a href="detail.html"><p class="mg0 fs2 hv ml10">Music bringing people together everywhere</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv mt10 ml10" aria-hidden="true"></i>
+											<p class="disp hv">John Doe</p></a>
+											<i class="fa fa-clock-o ml10" aria-hidden="true"></i>
+											<p class="disp">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10 hv" aria-hidden="true"></i>
+											<p class="disp hv">5 Comments</p></a>	
+								</div>
+								<div>
+									<a href="index.html"><button class="btn hv3 h30 w60px mt10 ml10">#New</button></a>
+										<a href="index.html"><button class="btn2 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="h130 w100 fl">
+							<div class="h130 w30 fl">
+								<img src="images/small6.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+									<a href="detail.html"><p class="mg0 fs2 hv ml5">"Speaks perfect English":Trump's offensive praise of a Latino Border Patrol agent</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv mt10 ml10" aria-hidden="true"></i>
+											<p class="disp hv">John Doe</p></a>
+											<i class="fa fa-clock-o hv ml10" aria-hidden="true"></i>
+											<p class="disp hv">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10" aria-hidden="true"></i>
+											<p class="disp hv">5 Comments</p>	</a>
+								</div>
+								<div>
+									<a href="index.html"><button class="btn hv3 h30 w60px mt10 ml10">#New</button></a>
+										<a href="index.html"><button class="btn3 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="h400 w50 fl ml10">
+						<div class="w95 h400 fl ml50 hv4" style="background-image:url(images/trending2.jpg);
+													background-position: center;">
+														<center>
+															<div class="mt220 bg w100">
+																<div>
+				<a href="detail.html"><p class="clw fs2 hv2">Serving the country</p></a>
+																</div>
+																<div>
+												<a href="index.html"><button class="btn hv3 h30 w60px mt10">#New</button></a>
+												<a href="index.html"><button class="btn2 hv3 h30 w80px ml10">#Security</button></a>
+												<a href="index.html"><button class="btn3 hv3 h30 w100px ml10">#Politics</button></a>
+																</div>
+																<div>
+				<p class="clw hv2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+																</div>
+																<div>
+											<a href="index.html"><i class="fa fa-user clw hv2" aria-hidden="true"></i>
+											<p class="disp clw hv2">John Doe</p></a>
+											<i class="fa fa-clock-o clw hv2 ml10" aria-hidden="true"></i>
+											<p class="disp clw hv2">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o clw ml10" aria-hidden="true"></i>
+											<p class="disp clw hv2">5 Comments</p></a>	
+																</div>
+															</div>
+														</center>
+													</div>
+					</div>
+					</div>
+
+					<div class="h420 w100 fl mt10">
+				<div class="h420 w50 fl">
+			<div class="w95 h400 mt20 fl hv4" style="background-image:url(images/trending1.jpg);
+													background-position: center;">
+														<center>
+															<div class="mt220 w100 bg">
+																<div>
+								<a href="detail.html"><p class="clw fs2 hv2">New Generation of people loving food</p></a>
+																</div>
+																<div>
+									<a href="index.html"><button class="btn hv3 h30 w60px mt10">#New</button></a>
+									<a href="index.html"><button class="btn2 hv3 h30 w80px ml10">#Sports</button></a>
+									<a href="index.html"><button class="btn3 hv3 h30 w100px ml10">#Trending</button></a>
+																</div>
+																<div>
+		<p class="clw hv2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+																</div>
+																<div>
+									<a href="index.html"><i class="fa fa-user clw hv2" aria-hidden="true"></i>
+									<p class="disp clw hv2">John Doe</p></a>
+									<i class="fa fa-clock-o clw hv2 ml10" aria-hidden="true"></i>
+									<p class="disp clw hv2">12 may</p>
+									<a href="index.html"><i class="fa fa-commenting-o clw ml10" aria-hidden="true"></i>
+									<p class="disp clw hv2">5 Comments</p></a>	
+																</div>
+
+															</div>
+														</center>
+													</div>
+												</div>
+
+							<div class="h420 w47 fl ml10">
+						<div class="h130 w100 fl mt20">
+							<div class="h130 w30 fl">
+								<img src="images/small1.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+						<a href="detail.html"><p class="mg0 fs2 hv">7 reasons Hollywood doesn't make romatic comedies anymore</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv mt10" aria-hidden="true"></i>
+											<p class="disp hv">John Doe</p></a>
+											<i class="fa fa-clock-o hv2 ml10" aria-hidden="true"></i>
+											<p class="disp hv">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10" aria-hidden="true"></i>
+											<p class="disp hv">5 Comments</p>	</a>
+								</div>
+								<div>
+									<a href="index.html"><button class="btn2  hv3 h30 w60px mt10">#New</button></a>
+										<a href="index.html"><button class="btn3 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="h130 w100 fl">
+							<div class="h130 w30 fl">
+								<img src="images/small2.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+						<a href="detail.html"><p class="mg0 fs2 hv">Must have gadgets in this century</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv mt10" aria-hidden="true"></i>
+											<p class="disp hv">John Doe</p></a>
+											<i class="fa fa-clock-o hv2 ml10" aria-hidden="true"></i>
+											<p class="disp hv">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10" aria-hidden="true"></i>
+											<p class="disp hv">5 Comments</p>	</a>
+								</div>
+								<div>
+									<a href="index.html"><button class="btn  hv3 h30 w60px mt10">#New</button></a>
+										<a href="index.html"><button class="btn2 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="h130 w100 fl">
+							<div class="h130 w30 fl">
+								<img src="images/small3.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+						<a href="detail.html"><p class="mg0 fs2 hv">Why conservatives love to hate alexandria Ocasio-Cortez</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv mt10" aria-hidden="true"></i>
+											<p class="disp hv">John Doe</p></a>
+											<i class="fa fa-clock-o hv ml10" aria-hidden="true"></i>
+											<p class="disp hv">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10" aria-hidden="true"></i>
+											<p class="disp hv">5 Comments</p></a>	
+								</div>
+								<div>
+									<a href="index.html"><button class="btn hv3 h30 w60px mt10">#New</button></a>
+										<a href="index.html"><button class="btn3 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="h400 w100 fl mt30">
+					<div class="h400 w46 fl">
+						<div class="h130 w100 fl">
+							<div class="h130 w30 fl">
+								<img src="images/small4.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+									<a href="detail.html"><p class="mg0 fs2 hv">Watch: the 3 best performance of the 2018 VMAs</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv" aria-hidden="true"></i>
+											<p class="disp hv">John Doe</p></a>
+											<i class="fa fa-clock-o ml10" aria-hidden="true"></i>
+											<p class="disp">12 may</p>
+										<a href="index.html"><i class="fa fa-commenting-o ml10 hv" aria-hidden="true"></i>
+											<p class="disp hv">5 Comments</p>	</a>
+								</div>
+								<div>
+									<a href="index.html"><button class="btn hv3 h30 w60px mt10">#New</button></a>
+										<a href="index.html"><button class="btn3 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+							<hr>
+							<div class="h130 w100 fl">
+							<div class="h130 w30 fl">
+								<img src="images/small5.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+									<a href="detail.html"><p class="mg0 fs2 hv">Music bringing people together everywhere</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv mt10" aria-hidden="true"></i>
+											<p class="disp hv">John Doe</p></a>
+											<i class="fa fa-clock-o ml10" aria-hidden="true"></i>
+											<p class="disp">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10 hv" aria-hidden="true"></i>
+											<p class="disp hv">5 Comments</p></a>	
+								</div>
+								<div>
+									<a href="index.html"><button class="btn hv3 h30 w60px mt10">#New</button></a>
+										<a href="index.html"><button class="btn2 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="h130 w100 fl">
+							<div class="h130 w30 fl">
+								<img src="images/small6.jpg" height="120px" width="160px">
+							</div>
+							<div class="h130 w70 fl">
+								<div>
+									<a href="detail.html"><p class="mg0 fs2 hv">"Speaks perfect English":Trump's offensive praise of a Latino Border Patrol agent</p></a>
+								</div>
+								<div>
+									<a href="index.html"><i class="fa fa-user hv mt10" aria-hidden="true"></i>
+											<p class="disp hv">John Doe</p></a>
+											<i class="fa fa-clock-o hv ml10" aria-hidden="true"></i>
+											<p class="disp hv">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10" aria-hidden="true"></i>
+											<p class="disp hv">5 Comments</p></a>	
+								</div>
+								<div>
+									<a href="index.html"><button class="btn hv3 h30 w60px">#New</button></a>
+										<a href="index.html"><button class="btn3 hv3 ml10 h30 w80px">#Health</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="h400 w50 fl ml10">
+
+						<div class="h400 w95 fl hv4 ml50" style="background-image:url(images/trending3.jpg);
+										
+										background-position: center;">
+
+										<center>
+			<div class="mt200 w100 bg">
+				<div>
+				<a href="detail.html"><p class="fs2 clw hv2">Creativity comes within itself for everyone</p></a>
+			</div>
+				<div>
+				<a href="index.html"><button class="btn hv3 h30 w60px">#New</button></a>
+				<a href="index.html"><button class="btn2 hv3 h30 w80px ml10">#Education</button></a>
+				<a href="index.html"><button class="btn3 hv3 h30 w80px ml10">#Children</button></a></div>
+				<div>
+				<p class="clw">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p></div>
+				<div>
+				<a href="index.html"><i class="fa fa-user clw hv" aria-hidden="true"></i>
+											<p class="disp clw hv">John Doe</p></a>
+											<i class="fa fa-clock-o clw hv ml10" aria-hidden="true"></i>
+											<p class="disp clw hv">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o clw ml10" aria-hidden="true"></i>
+											<p class="disp clw">5 Comments</p></a></div>
+			</div>
+		</center>
+		</div>
+						
+					</div>
+				</div>
+			</div>
+
+
+			<div class="h800 w85 ml100">
+				<h2>Fashion</h2>
+				<hr>
+				<div class="h600 w24 fl mt50">
+					<div class="h345 w100 fl" style="background-image: url(images/fashion2.jpg);
+												background-position: center;
+												background-size: cover;">
+													<div class="black fl">
+														<center>
+															<div class="w90 mt220">
+																<div>
+																	<a href="detail.html"><h3 class="clw hv mg0">Upcoming 50% sales off</h3></a>
+																</div>
+																<hr>
+																<div class="mt5">
+											<a href="index.html"><i class="fa fa-user clw hv" aria-hidden="true"></i>
+											<p class="disp clw hv">John Doe</p></a>
+											<i class="fa fa-clock-o clw ml10" aria-hidden="true"></i>
+											<p class="disp clw">12 may</p>
+																</div>
+																<div class="mt10">
+										<a href="index.html"><button class="hv3 btn h30 w80px">#New</button></a>
+										<a href="index.html"><button class="hv3 btn2 h30 w100px">#Fashion</button></a>
+																</div>
+															</div>
+														</center>
+													</div>
+												</div>
+					<div class="h250 w100 fl mt5" style="background-image: url(images/fashion1.jpg);
+												background-position: center;
+												background-size: cover;">
+													<div class="black fl">
+														<center>
+															<div class="w90 mt130">
+																<div>
+																<a href="detail.html"><h3 class="clw hv mg0">Best Outfit For Winter</h3></a>
+																</div>
+																<hr>
+																<div class="mt5">
+											<a href="index.html"><i class="fa fa-user clw hv" aria-hidden="true"></i>
+											<p class="disp clw hv">John Doe</p></a>
+											<i class="fa fa-clock-o clw ml10" aria-hidden="true"></i>
+											<p class="disp clw ">12 may</p>
+																</div>
+																<div class="mt10">
+										<a href="index.html"><button class="hv3 btn h30 w80px">#New</button></a>
+										<a href="index.html"><button class="hv3 btn2 h30 w100px">#Fashion</button></a>
+																</div>
+															</div>
+														</center>
+													</div>
+												</div>
+				</div>
+				<div class="h600 w25 fl ml5 mt50">
+					<div class="h250 w100 fl" style="background-image: url(images/fashion4.jpg);
+												background-position: center;
+												background-size: cover;">
+													<div class="black fl">
+														<center>
+															<div class="w90 mt130">
+																<div>
+															<a href="detail.html"><h3 class="clw hv mg0">The Killer Looks</h3></a>
+																</div>
+																<hr>
+																<div class="mt5">
+											<a href="index.html"><i class="fa fa-user clw hv" aria-hidden="true"></i>
+											<p class="disp clw hv">John Doe</p></a>
+											<i class="fa fa-clock-o clw ml10" aria-hidden="true"></i>
+											<p class="disp clw ">12 may</p>
+																</div>
+																<div class="mt10">
+										<a href="index.html"><button class="hv3 btn h30 w80px">#New</button></a>
+										<a href="index.html"><button class="hv3 btn3 h30 w100px">#Fashion</button></a>
+																</div>
+															</div>
+														</center>
+													</div>
+												</div>
+					<div class="h345 w100 fl mt5" style="background-image: url(images/fashion3.jpg);
+												background-position: center;
+												background-size: cover;">
+													<div class="black fl">
+														<center>
+															<div class="w90 mt220">
+																<div>
+														<a href="index.html"><h3 class="clw hv mg0">Look Best for Interview</h3></a>
+																</div>
+																<hr>
+																<div class="mt5">
+											<a href="index.html"><i class="fa fa-user clw hv" aria-hidden="true"></i>
+											<p class="disp clw hv">John Doe</p></a>
+											<i class="fa fa-clock-o clw ml10" aria-hidden="true"></i>
+											<p class="disp clw">12 may</p>
+																</div>
+																<div class="mt10">
+										<a href="index.html"><button class="hv3 btn h30 w80px">#New</button></a>
+										<a href="index.html"><button class="hv3 btn2 h30 w100px">#Fashion</button></a>
+																</div>
+															</div>
+														</center>
+													</div>
+												</div>
+				</div>
+				<div class="h600 w50 fl ml5 mt50" style="background-image: url(images/fashion5.jpg);
+												background-position: center;
+												background-size: cover;">
+												<div class="black fl">
+													<center>
+															<div class="w90 mt500">
+																<div>
+											<a href="detail.html"><h3 class="clw hv mg0">Lopez announces her new fashion collection</h3></a>
+																</div>
+																<hr>
+																<div class="mt5">
+											<a href="index.html"><i class="fa fa-user clw hv" aria-hidden="true"></i>
+											<p class="disp clw hv">John Doe</p></a>
+											<i class="fa fa-clock-o clw  ml10" aria-hidden="true"></i>
+											<p class="disp clw ">12 may</p>
+																</div>
+																<div class="mt10">
+										<a href="index.html"><button class="btn2 h30 w80px hv3">#New</button></a>
+										<a href="index.html"><button class="btn3 h30 w100px hv3">#Fashion</button></a>
+																</div>
+															</div>
+														</center>
+												</div>
+					
+				</div>
+			</div>
+
+			<div class="h550 w85 ml100">
+				<div class="h500 w33 fl">
+					<div class="h250 w100 fl hv6" style="background-image: url(images/gallery1.jpg);
+														background-position: center;">
+															<div class="bg fl h250 w100">
+																<center>
+																	<div class="mt70">
+																		<div>
+											<a href="detail.html"><h3 class="hv clw">Top 10 Guitar Riffs</h3></a>
+																		</div>
+																		<div>
+											<a href="index.html"><button class="btn h30 w60px hv3">#New</button></a>
+											<a href="index.html"><button class="btn2 w80px h30 hv3">#Music</button></a>
+											<a href="index.html"><button class="btn3 w80px h30 hv3">#Trending</button></a>
+																		</div>
+																		<div class="clw">
+											<a href="index.html"><i class="fa fa-user hv mt10 clw" aria-hidden="true"></i>
+											<p class="disp hv clw">Bob Dylan</p></a>
+											<i class="fa fa-clock-o  ml10" aria-hidden="true"></i>
+											<p class="disp ">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10 hv clw" aria-hidden="true"></i>
+											<p class="disp hv clw">2 Comments</p></a>	
+																		</div>
+																	</div>
+																</center>
+															</div>
+														</div>
+					<div class="h250 w100 fl mt5 hv6" style="background-image: url(images/gallery4.jpg);
+														background-position: center;">
+															<div class="bg fl h250 w100">
+																<center>
+																	<div class="mt70">
+																		<div>
+											<a href="detail.html"><h3 class="hv clw">Children The Next Gen</h3></a>
+																		</div>
+																		<div>
+											<a href="index.html"><button class="btn h30 w60px hv3">#New</button></a>
+											<a href="index.html"><button class="btn2 w80px h30 hv3">#Sports</button></a>
+											<a href="index.html"><button class="btn3 w80px h30 hv3">#Trending</button></a>
+																		</div>
+																		<div class="clw">
+											<a href="index.html"><i class="fa fa-user hv mt10 clw" aria-hidden="true"></i>
+											<p class="disp hv clw">Bob Dylan</p></a>
+											<i class="fa fa-clock-o  ml10" aria-hidden="true"></i>
+											<p class="disp ">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10 hv clw" aria-hidden="true"></i>
+											<p class="disp hv clw">2 Comments</p></a>	
+																		</div>
+																	</div>
+																</center>
+															</div>
+														</div>
+				</div>
+				<div class="h500 w33 fl ml5">
+					<div class="h250 w100 fl hv6" style="background-image: url(images/gallery2.jpg);
+														background-position: center;">
+															<div class="bg fl h250 w100">
+																<center>
+																	<div class="mt70">
+																		<div>
+											<a href="detail.html"><h3 class="hv clw">Top Golf Courts</h3></a>
+																		</div>
+																		<div>
+											<a href="index.html"><button class="btn h30 w60px hv3">#New</button></a>
+											<a href="index.html"><button class="btn2 w80px h30 hv3">#Sports</button></a>
+											<a href="index.html"><button class="btn3 w80px h30 hv3">#Trending</button></a>
+																		</div>
+																		<div class="clw">
+											<a href="index.html"><i class="fa fa-user hv mt10 clw" aria-hidden="true"></i>
+											<p class="disp hv clw">Bob Dylan</p></a>
+											<i class="fa fa-clock-o  ml10" aria-hidden="true"></i>
+											<p class="disp ">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10 hv clw" aria-hidden="true"></i>
+											<p class="disp hv clw">2 Comments</p></a>	
+																		</div>
+																	</div>
+																</center>
+															</div>
+														</div>
+					<div class="h250 w100 fl mt5 hv6" style="background-image: url(images/gallery5.jpg);
+														background-position: center;">
+															<div class="bg fl h250 w100">
+																<center>
+																	<div class="mt70">
+																		<div>
+											<a href="detail.html"><h3 class="hv clw">Summer Beach</h3></a>
+																		</div>
+																		<div>
+											<a href="index.html"><button class="btn h30 w60px hv3">#New</button></a>
+											<a href="index.html"><button class="btn2 w80px h30 hv3">#Sports</button></a>
+											<a href="index.html"><button class="btn3 w80px h30 hv3">#Trending</button></a>
+																		</div>
+																		<div class="clw">
+											<a href="index.html"><i class="fa fa-user hv mt10 clw" aria-hidden="true"></i>
+											<p class="disp hv clw">Bob Dylan</p></a>
+											<i class="fa fa-clock-o  ml10" aria-hidden="true"></i>
+											<p class="disp ">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10 hv clw" aria-hidden="true"></i>
+											<p class="disp hv clw">2 Comments</p></a>	
+																		</div>
+																	</div>
+																</center>
+															</div>
+														</div>
+				</div>
+				<div class="h500 w33 fl ml5">
+					<div class="h250 w100 fl hv6" style="background-image: url(images/gallery3.jpg);
+														background-position: center;">
+															<div class="bg fl w100 h250">
+																<center>
+																	<div class="mt70">
+																		<div>
+											<a href="detail.html"><h3 class="hv clw">Early Morning Breakfast</h3></a>
+																		</div>
+																		<div>
+											<a href="index.html"><button class="btn h30 w60px hv3">#New</button></a>
+											<a href="index.html"><button class="btn2 w80px h30 hv3">#Sports</button></a>
+											<a href="index.html"><button class="btn3 w80px h30 hv3">#Trending</button></a>
+																		</div>
+																		<div class="clw">
+											<a href="index.html"><i class="fa fa-user hv mt10 clw" aria-hidden="true"></i>
+											<p class="disp hv clw">Bob Dylan</p></a>
+											<i class="fa fa-clock-o  ml10" aria-hidden="true"></i>
+											<p class="disp ">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10 hv clw" aria-hidden="true"></i>
+											<p class="disp hv clw">2 Comments</p></a>	
+																		</div>
+																	</div>
+																</center>
+															</div>
+														</div>
+					<div class="h250 w100 fl mt5 hv6" style="background-image: url(images/gallery6.jpg);
+														background-position: center;">
+															<div class="bg fl w100 h250">
+																<center>
+																	<div class="mt70">
+																		<div>
+											<a href="detail.html"><h3 class="hv clw">Mountains Calling</h3></a>
+																		</div>
+																		<div>
+											<a href="index.html"><button class="btn h30 w60px hv3">#New</button></a>
+											<a href="index.html"><button class="btn2 w80px h30 hv3">#Sports</button></a>
+											<a href="index.html"><button class="btn3 w80px h30 hv3">#Trending</button></a>
+																		</div>
+																		<div class="clw">
+											<a href="index.html"><i class="fa fa-user hv mt10 clw" aria-hidden="true"></i>
+											<p class="disp hv clw">Bob Dylan</p></a>
+											<i class="fa fa-clock-o  ml10" aria-hidden="true"></i>
+											<p class="disp ">12 may</p>
+											<a href="index.html"><i class="fa fa-commenting-o ml10 hv clw" aria-hidden="true"></i>
+											<p class="disp hv clw">2 Comments</p>	</a>
+																		</div>
+																	</div>
+																</center>
+															</div>
+														</div>
+				</div>
+			</div>
+
+
+			<div class="h700 w100 mt10" style="background-image: url(images/footerbg.png);
+												background-position: center;
+												background-size: cover;
+												background-attachment: fixed;">
+
+				<div class="bg2 h700 w100 fl ">
+						
+							<div class="w15 mt30 ml600">
+								<h3 class="disp clw">Find Us On Instagram</h3>
+								<hr>
+							</div>
+							<div class="h200 w85 fl ml100 mt20">
+								<div class="h200 w16 fl">
+								<img src="images/footer2.jpg" height="200px" width="100%"></div>
+								<div class="h200 w16 fl">
+								<img src="images/footer1.jpg" height="200px" width="100%"></div>
+								<div class="h200 w16 fl">
+								<img src="images/footer3.jpg" height="200px" width="100%"></div>
+								<div class="h200 w16 fl">
+								<img src="images/footer4.jpg" height="200px" width="100%"></div>
+								<div class="h200 w16 fl">
+								<img src="images/footer2.jpg" height="200px" width="100%"></div>
+								<div class="h200 w16 fl">
+								<img src="images/footer3.jpg" height="200px" width="100%"></div>
+							</div>
+							<div class="h200 w85 fl ml100 mt60">
+								<div class="h200 w33 fl">
+									<div>
+										<h3 class="clw disp">NewMag</h3>
+									</div>
+									<hr>
+									<div>
+										<p class="fs15 clw">amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+									</div>
+									<div>
+									<a href="index.html"><i class="fa fa-facebook hv clw fs2" aria-hidden="true"></i></a>
+								<a href="index.html"><i class="fa fa-twitter hv clw fs2 ml10" aria-hidden="true"></i></a>
+								<a href="index.html"><i class="fa fa-instagram hv clw fs2 ml10" aria-hidden="true"></i></a>
+									</div>
+								</div>
+								<div class="h200 w15 fl ml20">
+									<div>
+										<h3 class="clw disp">Categories</h3>
+									</div>
+									<hr>
+									<div class="clw">
+										<a href="index.html" class="clw"><p>Entertainment</p></a>
+										<a href="index.html" class="clw"><p>Sports</p></a>
+										<a href="index.html" class="clw"><p>Polictics</p></a>
+										<a href="index.html" class="clw"><p>National</p></a>
+										<a href="index.html" class="clw"><p>Blog</p></a>
+									</div>
+								</div>
+								<div class="h200 w15 fl ml20">
+									<div>
+										<h3 class="disp clw">Popular Tags</h3>
+									</div>
+									<hr>
+									<div class="clw">
+										<a href="index.html" class="clw"><p>Entertainment</p></a>
+										<a href="index.html" class="clw"><p>Sports</p></a>
+										<a href="index.html" class="clw"><p>Politics</p></a>
+										<a href="index.html" class="clw"><p>National</p></a>
+										<a href="index.html" class="clw"><p>International</p></a>
+									</div>
+								</div>
+								<div class="h200 w32 fl ml20">
+										<h3 class="disp clw">Newsletter</h3>
+
+									<hr>
+									<div class="clw">
+										<p>Dont Miss Anything</p>
+										<p>Subscribe to our #newsletter</p>
+
+									</div>
+			
+										<input type="message" placeholder="Enter Email" style="height: 30px; width: 80%; font-size: 17px;float: left;">
+										<a href="index.html"><button style="height: 36px; width: 10% ;background: red;font-size: 20px; color: white;border: 0px;"><i class="fa fa-telegram" aria-hidden="true"></i></button></a>
+			
+									
+								</div>
+								<div style="height:80px;width: 100%;float: left;"></div>
+								<center>
+								<div class="w32">
+										<hr>
+										<p class="clw">Copyright © 2023 <a href="https://www.hitechskillindia.in" style="color:red;text-decoration: none;">Hi - Tech</a> - All Rights reserved</p>
+										<hr>
+									</div>
+									</center>
+							</div>
+						</div>
+				</div>
+			
+</body>
+</html>

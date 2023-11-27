@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css">
+
+
+/*	margin top*/
+.mt5{margin-top: 5px;}
+.mt8{margin-top: 8px;}
+.mt10{margin-top: 10px;}
+.mt15{margin-top: 15px;}
+.mt20{margin-top: 20px;}
+.mt25{margin-top: 25px;}
+.mt30{margin-top: 30px;}
+.mt35{margin-top: 35px;}
+.mt40{margin-top: 40px;}
+.mt50{margin-top: 50px;}
+.mt60{margin-top: 60px;}
+.mt70{margin-top: 70px;}
+.mt80{margin-top: 80px;}
+.mt90{margin-top: 90px;}
+.mt100{margin-top: 100px;}
+.mt130{margin-top: 135px;}
+.mt150{margin-top: 190px;}
+.mt220{margin-top: 230px;}
+.mt200{margin-top: 240px;}
+.mt250{margin-top: 270px;}
+.mt300{margin-top: 300px;}
+.mt450{margin-top: 450px;}
+.mt500{margin-top: 490px;}
+.mg0{margin: 0px;}
+
+/*margin left*/
+.ml5{margin-left: 5px;}
+.ml10{margin-left: 10px;}
+.ml18{margin-left: 18px;}
+.ml20{margin-left: 20px;}
+.ml30{margin-left: 30px;}
+.ml40{margin-left: 40px;}
+.ml50{margin-left: 50px;}
+.ml60{margin-left: 60px;}
+.ml70{margin-left: 70px;}
+.ml80{margin-left: 80px;}
+.ml90{margin-left: 90px;}
+.ml100{margin-left: 100px;}
+.ml120{margin-left: 120px;}
+.ml125{margin-left: 125px;}
+.ml140{margin-left: 140px;}
+.ml150{margin-left: 150px;}
+.ml200{margin-left: 200px;}
+.ml250{margin-left: 250px;}
+.ml300{margin-left: 300px;}
+.ml350{margin-left: 350px;}
+.ml400{margin-left: 400px;}
+.ml415{margin-left: 415px;}
+.ml480{margin-left: 480px;}
+.ml500{margin-left: 500px;}
+.ml600{margin-left: 600px;}
+.ml685{margin-left: 685px;}
+.ml700{margin-left: 700px;}
+.ml750{margin-left: 750px;}
+.ml800{margin-left: 800px;}
+
+/*color*/
+.clr{color: red}
+.cls{color: silver;}
+.clg{color: green;}
+.clw{color: white;}
+.clgr{color: lightgray}
+.clgre{color: grey;}
+.clb{color: black;}
+.cpl{color: rgb(247, 86, 86);}
+
+
+/*background-color*/
+.bgr{background: red;}
+.bgw{background: white;}
+.bgs{background: silver;}
+.bgg{background: green;}
+.bgbl{background: black;}
+.bgbs{background: rgb(51, 51, 51)}
+.bgb{background: rgb(48, 62, 75);}
+.bgh{background: #333333;}
+.bgd{background:rgb(247, 86, 86);}
+.bg{background: #00000070}
+.bg2{background: #000000d1}
+.bbbg{background: #006dbf;}
+.bggg{background: #1c3a78;}
+
+/*height*/
+.h10{height: 10px;}
+.h20{height: 20px;}
+.h30{height: 30px;}
+.h50{height: 50px;}
+.h40{height: 40px;}
+.h50{height: 50px;}
+.h70{height: 70px;}
+.h80{height: 80px;}
+.h100{height: 100px;}
+.h130{height: 130px;}
+.h140{height: 140px;}
+.h150{height: 150px;}
+.h180{height: 180px;}
+.h200{height: 200px;}
+.h250{height: 250px;}
+.h300{height: 300px;}
+.h310{height: 310px;}
+.h345{height: 345px;}
+.h350{height: 350px;}
+.h400{height: 400px;}
+.h420{height: 420px;}
+.h450{height: 450px;}
+.h500{height: 500px;}
+.h550{height: 550px;}
+.h600{height: 600px;}
+.h650{height: 650px;}
+.h700{height: 700px;}
+.h800{height: 800px;}
+.h1000{height: 1000px;}
+.h1500{height: 1500px;}
+.h1800{height: 1800px;}
+.h2000{height: 2000px;}
+.h2900{height: 2900px;}
+.h3000{height: 3000px;}
+.h4000{height: 4000px;}
+
+/*width*/
+.w30px{width: 30px;}
+.w60px{width: 60px;}
+.w80px{width: 80px;}
+.w100px{width: 100px;}
+.w120px{width: 120px;}
+.w180px{width: 179px;}
+.w100{width: 100%;}
+.w90{width: 90%;}
+.w98{width: 98%;}
+.w95{width: 95%;}
+.w50{width: 50%;}
+.w68{width: 68%;}
+.w70{width: 70%;}
+.w65{width: 65%;}
+.w35{width: 35%;}
+.w75{width: 75%;}
+.w78{width: 78%;}
+.w80{width: 80%;}
+.w85{width: 85%;}
+.w45{width: 45%;}
+.w46{width: 46%;}
+.w47{width: 48%;}
+.w25{width: 25%;}
+.w24{width: 24%;}
+.w30{width: 30%;}
+.w23{width: 23%;}
+.w22{width: 22%;}
+.w21{width: 21%;}
+.w20{width: 20%;}
+.w10{width: 10%;}
+.w9{width: 9%;}
+.w15{width: 15%;}
+.w85{width: 85%;}
+.w16{width: 16.66%;}
+.w60{width: 60%;}
+.w67{width: 67%;}
+.w40{width: 40%;}
+.w19{width: 19%;}
+.w48{width: 48%;}
+.w32{width: 32%;}
+.w33{width: 33%;}
+.w333{width: 33.3%;}
+.w335{width: 33.5%;}
+
+
+/*hover*/
+.hv:hover{color: red;transition: 1s;}
+
+.hv2:hover{color: rgb(179, 179, 179); transition: 1s;}
+
+.hv3:hover{background-color: #333333;transition: 1s;color: white;}
+
+.hv4{background-size: 110% 110%;transition: 2s;}
+.hv4:hover{background-size: 100% 100%;transition: 2s;}
+
+.hv5:hover{background-color: red;color: white;transition: 1s;}
+
+.hv6{background-size: 100% 100%;transition: 2s;}
+.hv6:hover{background-size: 110% 110%;transition: 2s;}
+
+/*font style*/
+*{font-family: "open sans",sans-serif;}
+
+.fs3{font-size: 30px;}
+.fs2{font-size: 20px;}
+.fs15{font-size: 17px;}
+.fs17{font-size: 15px;}
+.fs{font-size: 10px;}
+.fs5{font-size: 50px;}
+.fs4{font-size: 40px;}
+
+.inl{display: inline;}
+
+.fl{float: left;}
+.fr{float: right;}
+
+/*button*/
+.btn{background: #33b1de;
+		border: 0px;
+		color: white;}
+
+.btn2{background: #e36493;
+		border: 0px;
+		color: white;}
+
+.btn3{background: #69b74f;
+		border: 0px;
+		color: white;}
+
+.btn4{background: white;
+		border: 0px;
+		border-radius: 30px;
+		color: red;}
+
+.btn5{background: white;
+		border: 0px;
+		color: grey;}
+
+.btn5{background: none;
+		border: 0px;
+		border-radius: 100%;
+		color: white;
+		height: 50px;
+		width: 30px;
+		font-size: 20px}
+
+.btn6{background: white;
+		border: 1px solid black;
+		color: rgb(48, 62, 75);
+		font-size: 20px;
+		height: 40px;	width: 40px;}
+
+
+.btnn{border: 1px solid grey;color: grey;}
+.btnn:hover{color: black;}
+
+.btn6:hover{background:rgb(48, 62, 75);border: 0px;color: white;}
+
+.btn7{background: white;border: 1px solid #f75656;height: 40px; width: 100px;color: #f75656;border-radius: 50px;}
+.btn7:hover{background: #f75656;color: white;}
+
+
+.disp{display: inline;}
+.bdr{border: 0px;}
+
+.black{height: 100%;
+	width: 100%;
+	background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
+}
+
+.bxs{box-shadow: 0px 0px 1px grey;border: 0px;}
+.bxs:hover{box-shadow: 0px 0px 3px grey;border: 0px;}
+.rotate:hover img{
+	transform: rotate(10deg) scale(1.25);transition: 2s;
+}
+.hide{
+	overflow: hidden;
+}
+
+span{color: black;}
+
+*{text-decoration: none;
+scroll-behavior: smooth;
+}
+
+a{color: black;}
+
+.ot{outline-color: #f75656;}
+
+</style>
+
+<link rel="icon" type="text/css" href="images/favicon.png">
+
+
+</head>
+<body style="margin: 0px;">
+
+	<div class="w100 h30 bgb clw">
+		<i class="fa fa-clock-o ml150 mt5" aria-hidden="true"> 2023-09-12</i>
+		<i class="fa fa-cloud ml50 mt5" aria-hidden="true"> Bapunagar,Ahmedabad</i>
+
+		<a href="detail.html"><i class="fa fa-facebook ml750 clw" aria-hidden="true"></i></a>
+		<a href="detail.html"><i class="fa fa-twitter ml10 clw" aria-hidden="true"></i></a>
+		<a href="detail.html"><i class="fa fa-instagram ml10 clw" aria-hidden="true"></i></a>
+	</div>
+
+	<div class="w100 h80">
+		<div class="h50 fl w30">
+		<a href="index.html"><img src="images/logo1.png" class="mt10 ml150"></a>
+		</div>
+		<div class="h50 fl w70">
+		<a href="index.html"><span class="inl ml100 mt35  fl hv">HOME</span></a>
+		<a href="blog.html"><span class="inl ml20 mt35 fl hv">BLOG</span></a>
+		<a href="shoplist.html"><span class="inl ml20 mt35 fl hv">SHOP LIST</span></a>
+		<a href="account.html"><span class="inl ml20 mt35 fl hv">ACCOUNT</span></a>
+		<a href="cart.html"><span class="inl ml20 mt35 fl hv">CART</span></a>
+		<a href="checkout.html"><span class="inl ml20 mt35 fl hv">CHECKOUT</span></a>
+		<a href="detail.html"><span class="inl ml20 mt35 fl hv cpl">DETAIL</span></a>
+		<a href="aboutus.html"><span class="inl ml20 mt35 fl hv">ABOUT US</span></a>
+		<a href="contactus.html"><span class="inl ml20 mt35 fl hv">CONTACT US</span></a>
+		<i class="fa fa-search ml20 mt35 fl hv" aria-hidden="true"></i>
+		</div>
+	</div>
+
+		<div class="h500 w85 ml100">
+			<div class="h500 w40 fl">
+				<a href="detail.html"><button class="btn h30 w60px mt100 hv3">#Sports</button></a>
+				<a href="detail.html"><button class="btn h30 w60px hv3">
+					<i class="fa fa-eye" aria-hidden="true"></i>
+					<span class="clw">2500</span>
+				</button></a>
+				<h1 class="fs4">World Cup to be played in November</h1>
+				<i class="fa fa-clock-o" aria-hidden="true">Posted On:12 May 2018</i>
+				<a href="detail.html"><i class="fa fa-user ml10 hv clb" aria-hidden="true">Jack Richard</i></a>
+				<a href="detail.html"><i class="fa fa-commenting-o ml10 hv clb" aria-hidden="true">0</i></a>
+			</div>
+			<div class="h500 w60 fl">
+				<img src="images/pd2.jpg" height="450px" width="100%">
+			</div>
+
+		</div>
+
+		<div class="h2900 w85 ml100">
+			<div class="h2900 w65 fl">
+				<div class="h150 w9 fl"><span class="fs5 clr"><center>C</center></span></div>
+				<div class="h150 w90 fl"><span class="clgre fs2">apitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely</span><span class="clgre fs2"> on the bottom line. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</span></div>
+				<div class="h500 w100 fl mt50">
+				<img src="images/trending1.jpg" height="500px" width="100%"> </div>
+
+				<div class="h200 w100 fl">
+					<p class="fs2 clgre">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+				</div>
+
+				<div class="h150 w100 fl" style="background-image: url(images/pd2.jpg);background-size: cover;background-position: center;">
+					<div class="h150 w100 bg fl">
+						<center>
+					<p class="clw fs2 mt50">Was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></center></div>
+				</div>
+				<div class="h310 w100 fl mt20">
+					<hr>
+					<div class="h180 w100 fl">
+					<div class="h150 w20 fl mt20">
+						<center>
+						<img src="images/profile1.jpg" height="120px" width="70%" style="border-radius: 100%;">
+						</center>
+					</div>
+					<div class="h150 w80 fl">
+						<h3>Jack Richard</h3>
+						<a href="detail.html"><i class="fa fa-facebook hv clgre" aria-hidden="true"></i></a>
+					<a href="detail.html"><i class="fa fa-twitter hv clgre ml10" aria-hidden="true"></i></a>
+						<a href="detail.html"><i class="fa fa-tumblr hv clgre ml10" aria-hidden="true"></i></a>
+						<p class="fs15 clgre">Was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					</div>
+					</div>
+					<hr>
+					<a href="detail.html"><button style="height: 40px;width: 300px;color: white;border: 0px;margin-right: 37px;" class="hv3 bggg">
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+						<span class="clw">Share on Facebook</span>
+					</button></a>
+					<span><p class="disp fs3">350</p> shares</span>
+					<a href="detail.html"><button style="height: 40px;width: 300px;;color: white;border: 0px;margin-left: 37px;" class="hv3 bbbg">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+						<span class="clw">Share on Twitter</span>
+					</button></a>
+					<div class="h60 w100">
+						<center>
+					<a href="detail.html"><button class="btnn h30 w60px mt30">#Sports</button></a>
+					<a href="detail.html"><button class="btnn h30 w100px">#World Cup</button></a>
+					<a href="detail.html"><button class="btnn h30 w80px">#Football</button></a>
+					<a href="detail.html"><button class="btnn h30 w80px">#Qatar</button></center></a>
+				</div>
+				</div>
+
+				<div class="h900 w100 fl">
+
+					<div class="h70 w14 fl">
+						<h3>Comments</h3>
+						<hr>
+					</div>
+
+					<div class="h250 w100 fr" style="border: 1px solid lightgrey">
+						
+						<div class="h250 w15 fl">
+							<img src="images/author.jpg" style="border-radius: 100%;margin-top: 20px;margin-left: 20px;" height="60px" width="60px">
+						</div>
+						<div class="h250 w85 fl">
+							<h3 class="disp fl mt20">Jack Richard</h3>
+							<i class="fa fa-clock-o ml415 mt20" aria-hidden="true"></i>
+							<span> 12 May 2018</span>
+
+							<p class="mt25">Et veniam possimus voluptatum voluptatem excepturi qui. Unde eum ut architecto veritatis quia deserunt incidunt consequatur. In fugiat voluptatem porro distinctio deleniti quod labore. Ipsam quibusdam inventore enim molestiae ducimus perspiciatis omnis. Eos repellat enim qui sit eaque maiores.</p>
+
+							<p>Quos quos tempora ab eos eum. Et libero fugiat quia et qui. Et illo et ut dolor nihil esse dolores rerum. Ut voluptatem voluptatibus non officiis aut quia.</p>
+
+							<a href="detail.html"><button class="btn7">Reply</button></a>
+						</div>
+
+					</div>
+
+					<div class="h200 w90 mt30" style="float:right;border: 1px solid lightgrey">
+
+						<div class="h200 w15 fl">
+							<img src="images/author.jpg" style="border-radius: 100%;margin-top: 20px;margin-left: 20px;" height="60px" width="60px">
+						</div>
+						<div class="h200 w85 fl">
+							<h3 class="disp fl mt20">Jack Richard</h3>
+							<i class="fa fa-clock-o ml350 mt20" aria-hidden="true"></i>
+							<span> 12 May 2018</span>
+
+							<p class="mt25">Et veniam possimus voluptatum voluptatem excepturi qui. Unde eum ut architecto veritatis quia deserunt incidunt consequatur. In fugiat voluptatem porro distinctio deleniti quod labore. Ipsam quibusdam inventore enim molestiae ducimus perspiciatis omnis. Eos repellat enim qui sit eaque maiores.</p>
+
+							<a href="detail.html"><button class="btn7">Reply</button></a>
+						
+					</div>
+					
+				</div>
+
+				<div class="h250 w100 fr mt30" style="border: 1px solid lightgrey">
+						
+						<div class="h250 w15 fl">
+							<img src="images/author.jpg" style="border-radius: 100%;margin-top: 20px;margin-left: 20px;" height="60px" width="60px">
+						</div>
+						<div class="h250 w85 fl">
+							<h3 class="disp fl mt20">Jack Richard</h3>
+							<i class="fa fa-clock-o ml415 mt20" aria-hidden="true"></i>
+							<span> 12 May 2018</span>
+
+							<p class="mt25">Et veniam possimus voluptatum voluptatem excepturi qui. Unde eum ut architecto veritatis quia deserunt incidunt consequatur. In fugiat voluptatem porro distinctio deleniti quod labore. Ipsam quibusdam inventore enim molestiae ducimus perspiciatis omnis. Eos repellat enim qui sit eaque maiores.</p>
+
+							<p>Quos quos tempora ab eos eum. Et libero fugiat quia et qui. Et illo et ut dolor nihil esse dolores rerum. Ut voluptatem voluptatibus non officiis aut quia.</p>
+
+							<a href="detail.html"><button class="btn7">Reply</button></a>
+						</div>
+					</div>
+
+					</div>
+
+					<div class="h650 w100 fl mt30">
+						<div class="h70 w20 fl">
+							<h3>Add a comment</h3>
+							<hr>
+							</div>
+								<div class="h300 w100 fl">
+							<p>Your Comment:</p>
+							<textarea style="height:190px;width: 750px;padding: 10px 0px 0px 20px;" class="ot"></textarea>
+							</div>
+							<div class="h100 w50 fl">
+								<p>Name:</p>
+								<input type="name" style="height:30px;width:340px;padding: 0px 0px 0px 20px;" class="ot">
+							</div>
+							<div class="h100 w50 fl">
+								<p style="margin-left: 15px;">Email address:</p>
+								<input type="email" style="height:30px;width:340px;margin-left: 15px;padding: 0px 0px 0px 20px;" class="ot">
+							</div>
+							<div class="h100 w100 fl">
+								<p>Website:</p>
+								<input type="name" style="height:30px;width:750px;padding: 0px 0px 0px 20px;" class="ot">
+							</div>
+							<div class="h100 w100 fl">
+							<a href="detail.html"><button class="btn7 mt20" style="width: 200px; height: 50px;" >Submit Comment</button></a>
+							</div>
+						</div>
+
+
+			</div>
+
+
+			<div class="h2900 w35 fl">
+				
+				<div class="h350 w85 fl ml20" style="padding:0px 18px;border: 1px solid lightgrey;">
+					<h3 class="ml20" style="margin: 10px 0px 10px 20px">Author</h3>
+					<center>
+		<img src="images/profile1.jpg" height="150px" width="150px" style="border-radius: 0px 30px 0px 30px">
+		<h3 class="hv">James Arthur</h3>
+		<p>Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit amet, consectetur Nulla fringilla purus at leo dignissim congue.</p>
+		<a href="detail.html"><i class="fa fa-facebook hv clgre" aria-hidden="true"></i></a>
+		<a href="detail.html"><i class="fa fa-twitter hv ml10 clgre" aria-hidden="true"></i></a>
+		<a href="detail.html"><i class="fa fa-instagram hv ml10 clgre" aria-hidden="true"></i></a>
+					</center>
+				</div>
+
+				<div class="h350 w85 fl ml20 mt30" style="padding:0px 18px;border: 1px solid lightgrey;">
+					<h3>Categories</h3>
+					<a href="detail.html"><p class="hv">Science</p></a>
+					<hr class="clgr">
+					<a href="detail.html"><p class="hv">Management</p></a>
+					<hr class="clgr">
+					<a href="detail.html"><p class="hv">Humanities</p></a>
+					<hr class="clgr">
+					<a href="detail.html"><p class="hv">Arts</p></a>
+					<hr class="clgr">
+					<a href="detail.html"><p class="hv">Biology</p></a>
+					<hr class="clgr">
+					<a href="detail.html"><p class="hv">Technology</p></a>
+				</div>
+
+				<div class="h500 w85 fl ml20 mt30" style="padding:0px 18px;border: 1px solid lightgrey;">
+					<h3>Recent Posts</h3>
+					<div class="h100 w100 fl">
+						<div class="h100 w25 fl">
+							<img src="images/profile1.jpg" height="80px" width="100%">
+						</div>
+						<div class="h100 w75 fl">
+							<a href="detail.html"><button class="h30 w80px btn hv3 ml20">#News</button></a>
+							<a href="detail.html"><h4 class="hv clb" style="margin:10px 0px 10px 20px;">10 Tips you should follow</h4></a>
+				<a href="detail.html"><i class="fa fa-user ml10 hv clgre ml20" aria-hidden="true">John Doe</i></a>
+				<i class="fa fa-clock-o clgre" aria-hidden="true">12 May 2018</i>
+						</div>
+					</div>
+
+					<div class="h100 w100 fl mt10">
+						<div class="h100 w25 fl">
+							<img src="images/recent2.jpg" height="80px" width="100%">
+						</div>
+						<div class="h100 w75 fl">
+							<a href="detail.html"><button class="h30 w80px btn2 hv3 ml20">#News</button></a>
+							<a href="detail.html"><h4 class="hv clb" style="margin:10px 0px 10px 20px;">Must have gadgets in life</h4></a>
+				<a href="detail.html"><i class="fa fa-user ml10 hv clgre ml20" aria-hidden="true">John Doe</i></a>
+				<i class="fa fa-clock-o clgre" aria-hidden="true">12 May 2018</i>
+						</div>
+					</div>
+
+					<div class="h100 w100 fl mt10">
+						<div class="h100 w25 fl">
+							<img src="images/recent1.jpg" height="80px" width="100%">
+						</div>
+						<div class="h100 w75 fl">
+							<a href="detail.html"><button class="h30 w80px btn3 hv3 ml20">#Health</button></a>
+							<a href="detail.html"><h4 class="hv clb" style="margin:10px 0px 10px 20px;">Selena, The talk of town</h4></a>
+				<a href="detail.html"><i class="fa fa-user ml10 hv clgre ml20" aria-hidden="true">John Doe</i></a>
+				<i class="fa fa-clock-o clgre" aria-hidden="true">12 May 2018</i>
+						</div>
+					</div>
+
+					<div class="h100 w100 fl mt10">
+						<div class="h100 w25 fl">
+							<img src="images/recent2.jpg" height="80px" width="100%">
+						</div>
+						<div class="h100 w75 fl">
+							<a href="detail.html"><button class="h30 w80px btn hv3 ml20">#News</button></a>
+							<a href="detail.html"><h4 class="hv clb" style="margin:10px 0px 10px 20px;">Why Zlatan left United?</h4></a>
+				<a href="detail.html"><i class="fa fa-user ml10 hv clgre ml20" aria-hidden="true">John Doe</i></a>
+				<i class="fa fa-clock-o clgre" aria-hidden="true">12 May 2018</i>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="h350 w85 fl ml20 mt30" style="padding:20px 18px 15px 18px;border: 1px solid lightgrey;">
+					<h3 class="disp">Advertisement</h3>
+					<img src="images/footer1.jpg" height="300px" width="100%" class="mt20">
+				</div>
+
+				<div class="h450 w85 fl ml20 mt30" style="padding:20px 18px  0px 18px;border: 1px solid lightgrey;">
+					<h3 class="disp">Popular Posts</h3>
+					<div class="h100 w100 fl">
+						<div class="h100 w10 fl">
+								<p class="cpl fs3 mt40">01</p>
+						</div>
+						<div class="h100 w90 fl">
+							<a href="detail.html"><h4 class="ml10 clb hv">7 reasons Hollywood doesn’t make romantic comedies anymore</h4></a>
+
+				<i class="fa fa-user hv fs17 ml10 clgre" aria-hidden="true">John Doe</i>
+							<i class="fa fa-clock-o fs17 ml10 clgre" aria-hidden="true">12 May 2018</i>
+				<i class="fa fa-commenting-o ml10 hv fs17 ml10 clgre" aria-hidden="true">3 Comments</i>
+						</div>
+					</div>
+					<div class="h100 w100 fl">
+						<div class="h100 w10 fl">
+								<p class="cpl fs3 mt40">02</p>
+						</div>
+						<div class="h100 w90 fl">
+							<a href="detail.html"><h4 class="ml10 hv clb">Watch: the 3 best performances of the 2018 VMAs</h4></a>
+
+				<i class="fa fa-user hv fs17 ml10 clgre" aria-hidden="true">John Doe</i>
+							<i class="fa fa-clock-o fs17 ml10 clgre" aria-hidden="true">12 May 2018</i>
+				<i class="fa fa-commenting-o ml10 hv fs17 ml10 clgre" aria-hidden="true">3 Comments</i>
+						</div>
+					</div>
+					<div class="h100 w100 fl">
+						<div class="h100 w10 fl">
+								<p class="cpl fs3 mt40">03</p>
+						</div>
+						<div class="h100 w90 fl">
+							<a href="detail.html"><h4 class="ml10 hv clb">Why conservatives love to hate Alexandria?</h4></a>
+
+				<i class="fa fa-user hv fs17 ml10 clgre" aria-hidden="true">John Doe</i>
+							<i class="fa fa-clock-o fs17 ml10 clgre" aria-hidden="true">12 May 2018</i>
+				<i class="fa fa-commenting-o ml10 hv fs17 ml10 clgre" aria-hidden="true">3 Comments</i>
+						</div>
+					</div>
+					<div class="h100 w100 fl">
+						<div class="h100 w10 fl">
+								<p class="cpl fs3 mt40">04</p>
+						</div>
+						<div class="h100 w90 fl">
+							<a href="detail.html"><h4 class="ml10 hv clb">10 Tips you should follow before eating street foods</h4></a>
+
+				<i class="fa fa-user hv fs17 ml10 clgre" aria-hidden="true">John Doe</i>
+							<i class="fa fa-clock-o fs17 ml10 clgre" aria-hidden="true">12 May 2018</i>
+				<i class="fa fa-commenting-o ml10 hv fs17 ml10 clgre" aria-hidden="true">3 Comments</i>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+		<div class="h700 w100 mt10" style="background-image: url(images/footerbg.png);
+												background-position: center;
+												background-size: cover;
+												background-attachment: fixed;">
+
+				<div class="bg2 h700 w100 fl ">
+						
+							<div class="w15 mt30 ml600">
+								<h3 class="disp clw">Find Us On Instagram</h3>
+								<hr>
+							</div>
+							<div class="h200 w85 fl ml100 mt20">
+								<div class="h200 w16 fl">
+								<img src="images/footer2.jpg" height="200px" width="100%"></div>
+								<div class="h200 w16 fl">
+								<img src="images/footer1.jpg" height="200px" width="100%"></div>
+								<div class="h200 w16 fl">
+								<img src="images/footer3.jpg" height="200px" width="100%"></div>
+								<div class="h200 w16 fl">
+								<img src="images/footer4.jpg" height="200px" width="100%"></div>
+								<div class="h200 w16 fl">
+								<img src="images/footer2.jpg" height="200px" width="100%"></div>
+								<div class="h200 w16 fl">
+								<img src="images/footer3.jpg" height="200px" width="100%"></div>
+							</div>
+							<div class="h200 w85 fl ml100 mt60">
+								<div class="h200 w33 fl">
+									<div>
+										<h3 class="clw disp">NewMag</h3>
+									</div>
+									<hr>
+									<div>
+										<p class="fs15 clw">amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+									</div>
+									<div>
+								<a href="detail.html"><button class="btn5"><i class="fa fa-facebook hv" aria-hidden="true"></i></button></a>
+								<a href="detail.html"><button class="btn5"><i class="fa fa-twitter hv" aria-hidden="true"></i></button></a>
+								<a href="detail.html"><button class="btn5"><i class="fa fa-instagram hv" aria-hidden="true"></i></button></a>
+									</div>
+								</div>
+								<div class="h200 w15 fl ml20">
+									<div>
+										<h3 class="clw disp">Categories</h3>
+									</div>
+									<hr>
+									<div class="clw">
+										<a href="detail.html" class="clw"><p>Entertainment</p></a>
+										<a href="detail.html" class="clw"><p>Sports</p></a>
+										<a href="detail.html" class="clw"><p>Polictics</p></a>
+										<a href="detail.html" class="clw"><p>National</p></a>
+										<a href="detail.html" class="clw"><p>Blog</p></a>
+									</div>
+								</div>
+								<div class="h200 w15 fl ml20">
+									<div>
+										<h3 class="disp clw">Popular Tags</h3>
+									</div>
+									<hr>
+									<div class="clw">
+										<a href="detail.html" class="clw"><p>Entertainment</p></a>
+										<a href="detail.html" class="clw"><p>Sports</p></a>
+										<a href="detail.html" class="clw"><p>Politics</p></a>
+										<a href="detail.html" class="clw"><p>National</p></a>
+										<a href="detail.html" class="clw"><p>International</p></a>
+									</div>
+								</div>
+								<div class="h200 w32 fl ml20">
+										<h3 class="disp clw">Newsletter</h3>
+
+									<hr>
+									<div class="clw">
+										<p>Dont Miss Anything</p>
+										<p>Subscribe to our #newsletter</p>
+
+									</div>
+			
+										<input type="message" placeholder="Enter Email" style="height: 30px; width: 80%; font-size: 17px;float: left;">
+										<a href="detail.html"><button style="height: 36px; width: 10% ;background: red;font-size: 20px; color: white;border: 0px;"><i class="fa fa-telegram" aria-hidden="true"></i></button></a>
+			
+									
+								</div>
+								<div style="height:80px;width: 100%;float: left;"></div>
+								<center>
+								<div class="w32">
+										<hr>
+										<p class="clw">Copyright © 2023 <a href="https://www.hitechskillindia.in" style="color:red;text-decoration: none;">Hi - Tech</a> - All Rights reserved</p>
+										<hr>
+									</div>
+									</center>
+							</div>
+						</div>
+				</div>
+
+	<a href="detail.html"><button style="height:40px;
+					width:40px;
+					background: white;
+					color: red;
+					border-radius: 100%;
+					border: 0px;
+					position: fixed;
+					right: 10px;
+					bottom: 20px;
+					float: right;
+					font-size: 20px;">
+		<i class="fa fa-arrow-up" aria-hidden="true"></i>
+	</button></a>
+
+
+</body>
+</html>
